@@ -29,7 +29,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [SCSS](https://sass-lang.com/) - SCSS
 - [Gulp](https://gulpjs.com/) - A toolkit to automate & enhance your workflow
