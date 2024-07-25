@@ -22,5 +22,6 @@
   - nft\_\_value
   - nft\_\_price
   - nft\_\_time
+  - nft\_\_creator
   - nft\_\_creator--image
   - nft\_\_creator--name

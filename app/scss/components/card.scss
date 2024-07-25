@@ -24,7 +24,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    padding-bottom: rem(24);
+    padding-bottom: rem(16);
     border-bottom: 1px solid var(--very-dark-blue-line);
     margin-bottom: rem(16);
   }
@@ -50,6 +50,24 @@
 
     img {
       margin-right: rem(8);
+    }
+  }
+
+  &__creator {
+    display: flex;
+    align-items: center;
+    &--image {
+      border: 1px solid var(--white);
+      border-radius: 50%;
+      width: 32px;
+      margin-right: rem(16);
+    }
+
+    &--sponsor {
+      color: var(--soft-blue);
+    }
+    &--name {
+      font-size: rem(16);
     }
   }
 }
