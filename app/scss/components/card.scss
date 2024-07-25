@@ -1,0 +1,55 @@
+@use "../util/" as *;
+
+.nft {
+  border-radius: 16px;
+
+  &__image {
+    max-width: 100%;
+    border-radius: rem(10);
+    margin-bottom: rem(28);
+  }
+
+  &__name {
+    margin-bottom: rem(16);
+  }
+
+  &__description {
+    color: var(--soft-blue);
+    line-height: 1.4;
+    margin-bottom: rem(24);
+  }
+
+  &__value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-bottom: rem(24);
+    border-bottom: 1px solid var(--very-dark-blue-line);
+    margin-bottom: rem(16);
+  }
+
+  &__price {
+    color: var(--cyan);
+    letter-spacing: 0.1rem;
+    font-size: rem(16);
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+
+    img {
+      margin-right: rem(8);
+    }
+  }
+
+  &__time {
+    color: var(--soft-blue);
+    display: flex;
+    align-items: center;
+    font-size: rem(16);
+
+    img {
+      margin-right: rem(8);
+    }
+  }
+}
